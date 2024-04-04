@@ -1,6 +1,6 @@
 # tz_atcoder_dc
 
-https://kazmax.zpp.jp/cmd/d/dc.1.html
+https://kazmax.zpp.jp/cmd/d/dc.1.html  #####
 
 https://ja.wikipedia.org/wiki/Dc_(UNIX)
 
