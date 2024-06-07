@@ -5,9 +5,6 @@ https://kazmax.zpp.jp/cmd/d/dc.1.html
 
 https://ja.wikipedia.org/wiki/Dc_(UNIX)
 ```
-
-<br/><br/>
-
 ```
 !tr '\n' ' '|awk '{xxxxxxxxxxxxxxxxxx}'
 !tr '\n' ' '|awk '{if($1==substr($2,1,length($2)-1))print"Yes";else print"No";}'
