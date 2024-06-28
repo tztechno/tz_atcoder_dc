@@ -1,0 +1,19 @@
+abc115_a.dc
+##########################################
+##########################################
+##########################################
+##########################################
+##########################################
+[Christmas]P[1+d25>x[ Eve]P]sx?d25>x
+##########################################
+!python3 -c "print('Christmas' + ' Eve' * (25 - int(input())))"
+##########################################
+!tr '\n' ' '| awk '{a["22"]="Christmas Eve Eve Eve"; a["23"]="Christmas Eve Eve"; a["24"]="Christmas Eve"; a["25"]="Christmas"; print a[$1]}'
+##########################################
+!tr '\n' ' '|awk '{if($1==22)print"Christmas Eve Eve Eve";else if($1==23)print"Christmas Eve Eve";else if($1==24)print"Christmas Eve";else print"Christmas";}'
+##########################################
+[python]
+D=int(input())
+L=["Christmas Eve Eve Eve","Christmas Eve Eve","Christmas Eve","Christmas"]
+print(L[D-22])
+##########################################
